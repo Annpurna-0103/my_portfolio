@@ -4,4 +4,5 @@ from . import views  # Your views import
 urlpatterns = [
     # Add your views here
     path('', views.index, name='index'),  # example home page URL pattern
+    path('blog/', views.single, name='single'),
 ]
